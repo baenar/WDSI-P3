@@ -5,3 +5,4 @@ sentence-transformers
 rank-bm25
 python-dotenv
 huggingface_hub[hf_xet]
+nltk

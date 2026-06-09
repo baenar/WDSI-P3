@@ -1,16 +1,22 @@
 import os
+import re
 import pickle
-
+import nltk
+from nltk.corpus import stopwords
 import faiss
 import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
+from rank_bm25 import BM25Okapi
 
 DATA_DIR = "data"
 INDEX_PATH = os.path.join(DATA_DIR, "faiss.index")
 DOCS_PATH = os.path.join(DATA_DIR, "docs.pkl")
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+BM25_PATH = os.path.join(DATA_DIR, "bm25.pkl")
 
+nltk.download('stopwords', quiet=True)
+STOP_WORDS = set(stopwords.words('english'))
 
 def load_dataset():
     print("Downloading dataset...")
@@ -61,6 +67,18 @@ def build_index(docs):
     index.add(embeddings)
     return index
 
+def tokenize(text):
+    text = text.lower()
+    text = re.sub(r'[^\w\s]', '', text)
+    words = text.split()
+    return [word for word in words if word not in STOP_WORDS]
+
+def build_bm25(docs):
+    print("Creating BM25 index...")
+    tokenized_corpus = [tokenize(doc["text"]) for doc in docs]
+    bm25 = BM25Okapi(tokenized_corpus)
+    return bm25
+
 
 def main():
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -72,10 +90,16 @@ def main():
     index = build_index(docs)
 
     faiss.write_index(index, INDEX_PATH)
+
+    bm25_index = build_bm25(docs)
+    with open(BM25_PATH, "wb") as f:
+        pickle.dump(bm25_index, f)
+        
     with open(DOCS_PATH, "wb") as f:
         pickle.dump(docs, f)
 
     print(f"Saved FAISS index ({index.ntotal} vectors) to {INDEX_PATH}")
+    print(f"Saved BM25 index to {BM25_PATH}")
     print(f"Saved documents to {DOCS_PATH}")
 
 

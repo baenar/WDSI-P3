@@ -7,6 +7,20 @@ print("Loading dataset...")
 df = pd.read_csv("hf://datasets/CodeKapital/CookingRecipes/Data.csv")
 print(f"Total recipes: {len(df)}")
 
+FILTER_INGREDIENT = "potatoes"
+
+def has_ingredient(ner):
+        try:
+            return FILTER_INGREDIENT.lower() in [i.lower().strip() for i in ast.literal_eval(ner)]
+        except Exception:
+            return False
+
+mask = df["NER"].apply(has_ingredient)
+filtered = df[mask].reset_index(drop=True)
+print(f"Filtered to {len(filtered)} recipes containing '{FILTER_INGREDIENT}'")
+
+df = filtered
+
 counter = Counter()
 for ner in df["NER"].dropna():
     try:
