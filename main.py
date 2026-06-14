@@ -80,20 +80,47 @@ def main():
     model = SentenceTransformer(EMBEDDING_MODEL)
     client = Groq()
 
-    print("Culinary chatbot ready! Type 'quit' to exit.\n")
+    while True:
+        mode = input("Retriever [faiss/bm25/both]: ").strip().lower()
+        if mode in ("faiss", "bm25", "both"):
+            break
+        print("Please type faiss, bm25 or both.")
+
+    print(f"\nCulinary chatbot ready! (mode: {mode}) Type 'quit' to exit.\n")
 
     while True:
         query = input("You: ").strip()
         if not query or query.lower() == "quit":
             break
 
-       # results = retrieve_faiss(query, index, docs, model)
-        results = retrieve_bm25(query, bm25, docs)
+        if mode == "faiss":
+            results = retrieve_faiss(query, index, docs, model)
+            print(f"\n--- Top {TOP_K} FAISS results ---")
+            for i, r in enumerate(results, 1):
+                print(f"{i}. {r['title']} (score: {r['score']:.3f})")
+            print("---------------------------------\n")
 
-        print(f"\n--- Top {TOP_K} retrieved recipes ---")
-        for i, r in enumerate(results[:TOP_K], 1):
-            print(f"{i}. {r['title']} (score: {r['score']:.3f})")
-        print("-------------------------------\n")
+        elif mode == "bm25":
+            results = retrieve_bm25(query, bm25, docs)
+            print(f"\n--- Top {TOP_K} BM25 results ---")
+            for i, r in enumerate(results, 1):
+                print(f"{i}. {r['title']} (score: {r['score']:.3f})")
+            print("--------------------------------\n")
+
+        else:  # both
+            faiss_results = retrieve_faiss(query, index, docs, model)
+            bm25_results = retrieve_bm25(query, bm25, docs)
+
+            print(f"\n--- Top {TOP_K} FAISS results ---")
+            for i, r in enumerate(faiss_results, 1):
+                print(f"{i}. {r['title']} (score: {r['score']:.3f})")
+
+            print(f"\n--- Top {TOP_K} BM25 results ---")
+            for i, r in enumerate(bm25_results, 1):
+                print(f"{i}. {r['title']} (score: {r['score']:.3f})")
+            print("--------------------------------\n")
+
+            results = faiss_results + bm25_results
 
         user_message = build_prompt(query, results)
 
