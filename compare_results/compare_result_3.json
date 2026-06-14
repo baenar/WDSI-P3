@@ -1,0 +1,68 @@
+{
+  "query_id": 3,
+  "query": "what to cook with fish, potatoes and carrot?",
+  "faiss": [
+    {
+      "rank": 1,
+      "title": "Baked Fish With Potatoes Recipe",
+      "score": 0.7631,
+      "directions": "[\"Saute/fry onions, pepper, celery, garlic, and parsley in extra virgin olive oil.\", \"Add in blended tomatoes and bay leaves.\", \"Cook approximately for 1 hour, add in sugar.\", \"Oil a roasting pan, season the fish with salt and pepper.\", \"Place fish in pan with cut-up potatoes.\", \"Pour sauce over potatoes and fish.\", \"Bake for approximately 1 hour.\", \"Basting every 15 min.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Baked Fish On Potatoes",
+      "score": 0.7539,
+      "directions": "[\"Preheat the oven to 400\\u00b0F. Place potatoes in a large baking dish. Toss with oil. Season to taste.\", \"Bake 20 mins. Sprinkle leeks over potatoes.\", \"Bake 5 mins. Add zucchini and tomatoes; stir until combined. Place fish on top.\", \"Bake 10-15 mins until fish flakes when tested with a fork. Serve with lemon wedges.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Barbecued Fish With Crisp Potatoes",
+      "score": 0.7525,
+      "directions": "[\"Boil potatoes for 12-15 minutes, until tender.\", \"Meanwhile, preheat a flat barbecue grill to a medium-high heat.\", \"Slice and place cooked potatoes on preheated grill and cook for 5 minutes, until each side is crispy.\", \"While potatoes are cooking, season fish with olive oil, salt and pepper.\", \"Push potatoes to one side and cook fish on the grill for 5-6 minutes, until golden and flesh has turned opaque.\", \"Combine tomatoes, spring onions, garlic and capers.\", \"Stir through basil leaves and extra virgin olive oil.\", \"Spoon mixture on top of fish fillets and serve with crispy potatoes.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Baked Fish",
+      "score": 0.751,
+      "directions": "[\"Place sliced potatoes and onions in a baking dish.\", \"Salt and pepper to taste.\", \"Mix together tomato juice, pepper, flour and water and pour over potatoes and onions.\", \"Cover dish with foil and bake at 350\\u00b0 until potatoes are almost done.\", \"Place fish on top of potatoes and cook 15 minutes longer or until done.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Baked Fish On Potatoes",
+      "score": 0.7509,
+      "directions": "[\"Preheat the oven to 400\\u00b0F. Place potatoes in a large baking dish. Toss with oil. Season to taste.\", \"Bake 20 mins. Sprinkle leeks over potatoes.\", \"Bake 5 mins. Add zucchini and tomatoes; stir until combined. Place fish on top.\", \"Bake 10-15 mins until fish flakes when tested with a fork. Serve with lemon wedges.\"]"
+    }
+  ],
+  "bm25": [
+    {
+      "rank": 1,
+      "title": "Fish Chowder",
+      "score": 17.2552,
+      "directions": "[\"Steam fish until flaky.\", \"Peel and dice potatoes.\", \"Cook potatoes and carrot until soft (not mushy); use just enough water to cover potatoes.\", \"Mash potatoes lightly (leave lumpy).\", \"Do not mash carrot.\", \"Add celery, onion, fish, cream, milk, butter and salt and pepper to taste; simmer over low heat approximately 45 minutes.\", \"Do not boil.\", \"Yields approximately 6 quarts.\", \"Can be frozen.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Fish Chowder",
+      "score": 16.1051,
+      "directions": "[\"Cut fish into 2-inch squares.\", \"In large saucepan, bring 2 cups water to boiling.\", \"Add potatoes and carrot.\", \"Simmer 5 minutes. Stir in fish and salt.\", \"Simmer, covered, 10 minutes.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Rainbow Trout With Potatoes",
+      "score": 15.6759,
+      "directions": "[\"Place the fish on a baking tray and brush with melted butter or oil. Put the salt and pepper, place the carrot, garlic, and swede. Cook in a pre-heated oven at 180 degrees C for 25-30 minutes.\", \"Make sure the food is piping hot throughout before serving.\", \"Boil the potatoes.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Cheesy Fish Chowder",
+      "score": 15.0116,
+      "directions": "[\"Cut fish in 1-inch cubes.\", \"Melt butter in large saucepan.\", \"Add onion, carrot, potatoes and celery.\", \"Cook until onion is transparent.\", \"Blend in flour and salt.\", \"Gradually add chicken broth and milk.\", \"Cook, stirring constantly, until thickened.\", \"Add fish.\", \"Simmer for 10 minutes.\", \"Add cheese.\", \"Stir until melted.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Fish Souffle",
+      "score": 14.8968,
+      "directions": "[\"Mix fish flakes, carrot, onion and green pepper (seasoned). Separate eggs.\", \"Beat the whites until stiff and set aside.\", \"Beat egg yolks until light yellow.\", \"Add the yolks to fish flake mixture, then add the mashed potatoes.\", \"Lastly fold in the egg whites.\", \"Put in a greased baking dish.\", \"Set dish in a pan with warm water and place on center rack of oven at 360\\u00b0 for 30 minutes.\"]"
+    }
+  ]
+}

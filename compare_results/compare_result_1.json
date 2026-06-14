@@ -1,0 +1,68 @@
+{
+  "query_id": 1,
+  "query": "hearty warm dish for cold weather",
+  "faiss": [
+    {
+      "rank": 1,
+      "title": "Hearty Hot Dish Recipe",
+      "score": 0.59,
+      "directions": "[\"In a buttered casserole place a layer of potatoes and 1/2 c. cheese.\", \"Take the sausage and form into balls and fry.\", \"Mix the hamburger, some onions, the egg and sufficient corn flakes to hold the mix together.\", \"Make into balls and fry.\", \"Drain fat.\", \"Cook the broccoli and celery together.\", \"Place the broccoli and celery on top of cheese which is in the casserole.\", \"Then put on a layer of sausage balls, a layer of hamburger balls.\", \"Combine the three cans of soup and place on top of meat layers.\", \"Top this with about 1/2 c. cheese that has dill weed and parsley mixed with it.\", \"Do not add in any salt.\", \"Bake at 350 degrees till cooked through.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Hearty Winter Soup",
+      "score": 0.5795,
+      "directions": "[\"Bring water, potatoes, carrots, and celery to a boil.\", \"Reduce heat.\", \"Simmer for 10 minutes or until tender.\", \"Add remaining ingredients; cook, stirring occasionally, until cheese is melted. Yields 4 (1 cup) servings.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Hearty Winter Soup",
+      "score": 0.5732,
+      "directions": "[\"Bring water, potatoes, carrots and celery to a boil; reduce heat.\", \"Simmer for 10 minutes, or until vegetables are done.\", \"Add remaining ingredients; cook, stirring occasionally, until cheese is melted.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Hearty Winter Soup",
+      "score": 0.5715,
+      "directions": "[\"Bring water or broth, potatoes, carrots and celery to a boil; reduce heat.\", \"Simmer 10 minutes or until vegetables are tender. Add\", \"remaining ingredients; cover.\\tMicrowave on High 3 minutes or\\tuntil\", \"cheese\", \"is melted and soup is thoroughly heated.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Hearty Winter Soup",
+      "score": 0.5701,
+      "directions": "[\"Bring first 4 ingredients to boil.\", \"Simmer 10 minutes.\", \"Add cheese and stir until melted.\"]"
+    }
+  ],
+  "bm25": [
+    {
+      "rank": 1,
+      "title": "Potato Sourdough Starter",
+      "score": 19.4343,
+      "directions": "[\"Dissolve yeast in warm water; and then mix all ingredients in a 1-gallon crock.\", \"(Do not use metal container)\", \"Cover with a close-fitting lid and let the starter rise until light (12 hours in warm weather, longer in cool weather).\", \"Do not let the starter get cold, ever.\", \"After using part of the starter, add 1 cup warm water, 2 teaspoons sugar, and enough flour to mix to the starter's original consistency.\", \"Add more potato occasionally as food for the yeast, but don't add more yeast.\", \"Use daily for best results.\", \"Starter improves with age.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Cold Weather Soup",
+      "score": 15.4106,
+      "directions": "[\"Cook cabbage until half done. Add all ingredients and cook slowly until done.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Potato Soup For Hot Weather (Vichyssoise)",
+      "score": 12.245,
+      "directions": "[\"Melt butter and add green onions and cook until soft. Add potatoes, water and salt. Cover and cook slowly for 30 minutes until potatoes are done. Add milk, cream and 1 tablespoon butter. Bring to boil but stir to prevent scorching. Puree in food processor or blender. Serve cold with a dollop of sour cream for garnish.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Easy Ground Beef Soup Recipe",
+      "score": 11.784,
+      "directions": "[\"Use any leftovers vegetables you have on hand.\", \"Brown meat; drain.\", \"Add in to frzn vegetables in 2 qts boiling water.\", \"Add in remaining ingredients.\", \"Simmer till vegetables are tender.\", \"Remove bay leaves before serving.\", \"Serve with cornbread for a delicious cold weather meal.\", \"Makes about 10 servings.\", \"Freezes well or possibly keeps several days in refrigerator.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Crockpot Chicken Alfredo Stew",
+      "score": 11.7288,
+      "directions": "[\"1.\", \"In small bowl, mix pasta sauce, water, basil and salt.\", \"2.\", \"Spray slow cooker with cooking spray.\", \"In cooker, layer half each of the potatoes, chicken strips, frozen vegetables, and pasta sauce.\", \"Repeat layers, ending with pasta sauce.\", \"3.\", \"Cover; cook on low for 6-8 hours.\", \"Serve with homemade biscuits and/or a salad.\", \"Perfect for cold weather!\"]"
+    }
+  ]
+}

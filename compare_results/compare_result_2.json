@@ -1,0 +1,68 @@
+{
+  "query_id": 2,
+  "query": "traditional Eastern European side dish",
+  "faiss": [
+    {
+      "rank": 1,
+      "title": "East Meets Portugal 'Alentejana' -- Pork and Clams East Meets West Style",
+      "score": 0.533,
+      "directions": "[\"Place the clams, salt and cornmeal in a bowl and completely cover with cold water.\", \"Let them soak and purge for 1 hour.\", \"Drain, rinse and set aside.\", \"In a hot saute pan, coat lightly with oil and saute half of the garlic and ginger.\", \"Add the zucchinis and caramelize, about 3 minutes.\", \"Remove from pan and add drained clams.\", \"Deglaze with half of the wine and shaoxing and cover.\", \"Add a little water if needed if clams do not fully open.\", \"Once clams are open, set aside.\", \"(discard any that do not open).\", \"Keep liquid.\", \"Wipe pan out and coat with oil on high heat.\", \"Season the pork brisket with salt and paprika and brown on all sides.\", \"Add onions and caramelize.\", \"Add black beans.\", \"Deglaze with remaining shaoxing and wine and reduce by 50 percent.\", \"Add chicken stock and half of the reserved clam juice.\", \"Check for seasoning and add more clam juice if necessary.\", \"Bring to a simmer and reduce by 60 percent.\", \"Check again for seasoning and add zucchinis and clams.\", \"Add lemon juice and whisk in butter.\", \"Check one more time for flavor.\", \"While the sauce is reducing, season the pork tenderloin with salt and pepper and sear in a hot, oiled pan.\", \"Brown well on all sides and finish in a 375 degree oven until medium, about 10 minutes.\", \"For the potatoes, heat the curry oil to 375 degrees and first blanch the potatoes until lightly brown.\", \"This can and should be done in advance.\", \"Right before serving, fry again, this time until golden brown, drain well, season with salt, and toss with cilantro.\", \"(frying it twice produces a very crisp product).\", \"PLATING Using an o-ring in the center of the plate, fill with the pork sauce.\", \"Top with fried potatoes.\", \"Cut each pork tenderloin into 3 equal pieces and surround ring.\", \"Pull ring off and serve.\", \"Wine Suggestion: McGuigan Brothers Personal Reserve, Shiraz, South Eastern Australia, 1996.\", \"Make a paste with curry powder, water salt and slowly add oil.\", \"Let stand for 1 hour to settle.\", \"Use top, yellow oil for garnish or frying.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Germanic Casserole",
+      "score": 0.527,
+      "directions": "[\"In a large casserole dish.\", \"Drain the sauerkraut and spread it on the bottom.\", \"Slice the sausage into \\\"pennies\\\", and arrange the slices on top of the kraut.\", \"I use turkey kielbasa, but any tasty sausage will work.\", \"Drain the beets, and arrange them on top of the sausage.\", \"Sprinkle the dill weed over the beets, and top with sour cream.\", \"Steam or fry the sliced onion lightly, and arrange that over the beets.\", \"The dried fried onions I get from the oriental market work well also.\", \"Drain the potatoes and spread them over the top.\", \"Cover and bake at 350F for 30 minutes, or microwave on High for 10 minutes.\", \"Remove the cover, top with Swiss cheese, and bake another 3-5 minutes until the cheese has melted.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "German Dinner",
+      "score": 0.5186,
+      "directions": "[\"Layer ingredients as given in a 3-quart casserole dish.\", \"Cover and bake in a 350\\u00b0 oven for 50 minutes.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Italian Heritage Casserole",
+      "score": 0.5121,
+      "directions": "[\"Spray a 13 x 9-inch baking dish with vegetable oil.\", \"Arrange potatoes and peppers in the bottom of the dish.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Gjelle Me Zarzavata (Albanian Casserole)",
+      "score": 0.5036,
+      "directions": "[\"Preheat oven to 375\\u00b0F.\", \"Heat 3 tablespoons oil in a large skillet.\", \"Add meat and brown on all sides. Remove and set aside.\", \"Place potatoes in a greased baking dish large enough to hold all ingredients.\", \"Spread meat over potatoes.\", \"Combine tomatoes, carrots, celery, onion, pepper, garlic, parsley, salt and pepper.\", \"Spread mixture over meat.\", \"Pour in broth.\", \"Cover and bake for 45 minutes.\", \"Uncover, pour remaining oil over top, and bake 20 minutes more.\"]"
+    }
+  ],
+  "bm25": [
+    {
+      "rank": 1,
+      "title": "Traditional Eastern Curry",
+      "score": 14.1281,
+      "directions": "[\"Fry onions and garlic in oil.\", \"Add curry powder and tomatoes; cook over low heat for a few minutes.\", \"Add meat and brown.\", \"Add all remaining ingredients; simmer for 1 to 1 1/2 hours.\", \"Serve over rice.\", \"Top with coconut, chopped dried fruit, chopped tomatoes and onions, banana, raisins, etc.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Potato-Pea Salad",
+      "score": 13.1381,
+      "directions": "[\"Prepare a dressing from the oil, vinegar, sugar, and salt and pepper to taste.\", \"Cut the potatoes and cucumber into small cubes.\", \"Cut endive into thin strips.\", \"Mix dressing, potatoes, cucumber, peas, endive, cheese and parsley.\", \"Allow the salad to marinate for at least 1 hour in the fridge.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Hangover Soup",
+      "score": 12.6015,
+      "directions": "[\"Fill a soup pot with 8 cups water set on medium-high heat.\", \"In a pan, fry the chopped bacon.\", \"When it is done, take out and put into the water in the soup pot.\", \"In the drippings of the bacon, fry the pork loin and then the onions.\", \"When brown, put them into the soup pot and bring to a boil.\", \"Add the crushed tomatoes, mushrooms, celery root, celery, carrots and some salt and cook for 15 minutes.\", \"Next, add the potatoes, sausage, leeks, allspice, bay leaves Hungarian paprika and cook for another 15 minutes.\", \"Add the pickles, garlic and seasoning if using, and let boil for 10 minutes.\", \"Add the dill and heavy cream and season with salt and pepper.\", \"Guten Appetit!\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Solemn Man'S Rösti (Rosti)",
+      "score": 11.9851,
+      "directions": "[\"In a large pot bring peeled, whole potatoes to a boil in unsalted water & cook until just prior to being fork tender. (about 10 min) Keep checking them- It is important not to let them go too far to fork tender, as in their next phase they need to remain intact to be grated into a fry pan. If they are fork tender or beyond, they will crumble when attempting to grate.\", \"Drain, and transfer cooked potatoes to a clean bowl and refrigerate them overnight. or at least 6 hours.\", \"1 Fry pan method: (Nonstick preferred) On medium heat, melt butter into fry pan. Grate cold potato (longer grate size) with a hand grater directly over and into pan. Continue to cook until lightly browned on bottom. (About 5 min) Slide potato cake onto a large plate so that the uncooked side remains facing up. Invert the fry pan over the plate and carefully & quickly flip the plate & pan over so that the uncooked side of the potato cake is now browning. Add a bit more butter down the sides of the pan if necessary. Once golden, transfer potato cake to a large bowl, sprinkle with salt & pepper to taste and mix gently with the tines of a fork. Cover bowl with foil to keep warm and repeat until all the potatoes have been grated and fried.\", \"Favorite 2 Fry pan method: (Non-stick preferred) Use one med pan and one pan that is a bit smaller. Start by browning potatoes in the smaller pan. When ready to flip, place larger pan over smaller one (making like a clamshell fit) and then carefully invert/flip. The uncooked side of the potato cake should now be ready to be browned nicely in the larger fry pan. Continue cooking next batch again in the smaller pan.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Boxty (Traditional Irish Dish)",
+      "score": 11.4038,
+      "directions": "[\"Squeeze grated raw potatoes in cheese cloth to remove as much moisture as possible.\", \"Sift flour with salt and baking powder.\", \"Mix all potatoes with dry ingreds.\", \"and add beaten eggs.\", \"Mix well, and add sufficient milk to make batter.\", \"Drop by tablespoons onto hot buttered frying pan and cook over moderate heat until browned (4 min.\", \"per side.)\", \"Serve hot and well buttered with or without sugar.\", \"NOTE: Boxty is the traditional Irish fare for Shrove Tuesday.\", \"Composed of grated raw potatoes, mashed cooked potatoes, with flour added as a binding agent, Boxty is either fried in a pan or browned on a griddle.\", \"It is mentioned in a traditional children's Irish jingle: \\\"Three pans of boxty, baking all the day, What use is boxty without a cup of tay?\\\"\"]"
+    }
+  ]
+}
