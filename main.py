@@ -1,3 +1,9 @@
+# Główny plik chatbota kulinarnego opartego na RAG.
+# Wczytuje indeksy zbudowane przez ingest.py, a następnie w pętli przyjmuje
+# pytania od użytkownika, wyszukuje Top-K przepisów wybraną metodą (FAISS,
+# BM25 lub obie naraz) i przesyła je jako kontekst do modelu Llama 3.3-70b
+# przez Groq API, wyświetlając odpowiedź strumieniowo.
+
 import os
 import re
 import pickle

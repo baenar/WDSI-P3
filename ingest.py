@@ -1,3 +1,9 @@
+# Skrypt jednorazowego przygotowania danych.
+# Pobiera dataset CookingRecipes z HuggingFace, filtruje przepisy zawierające
+# ziemniaki, tworzy indeks wektorowy FAISS (embeddingi sentence-transformers)
+# oraz indeks BM25 (wyszukiwanie słów kluczowych). Oba indeksy zapisuje do
+# folderu data/ - muszą istnieć przed uruchomieniem main.py lub compare.py.
+
 import os
 import re
 import pickle

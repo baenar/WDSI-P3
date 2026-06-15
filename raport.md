@@ -45,7 +45,7 @@ Podsystem wyszukiwania (Retriever) zrealizowano w dwóch wariantach:
 ### 3.1. Prezentacja i porównanie pełnych wyników (Top 3)
 Zbudowany system działał poprawnie w czasie rzeczywistym, sprawnie komunikując się z modelem Llama 3 poprzez API i zwracając zwięzłe rekomendacje poparte wyciągniętym kontekstem. Poniższe zestawienie tabelaryczne przedstawia pełne wyniki Top 3 dla obu algorytmów, co pozwala na bezpośrednią ocenę jakości zwracanego kontekstu:
 
-| Zapytanie testowe | FAISS – Wyniki Top 3 (Wynik) | BM25 – Wyniki Top 3 (Wynik) | Obserwacja / Status |
+| Zapytanie testowe | FAISS - Wyniki Top 3 (Wynik) | BM25 - Wyniki Top 3 (Wynik) | Obserwacja / Status |
 | :--- | :--- | :--- | :--- |
 | **1. Semantyka:**<br>*Hearty warm dish for cold weather* | 1. Hearty Hot Dish (0.590)<br>2. Hearty Winter Soup (0.580)<br>3. Hearty Winter Soup (0.573) | 1. Potato Sourdough Starter (19.4)<br>2. Cold Weather Soup (15.4)<br>3. Potato Soup For Hot Weather (12.2) | **FAISS wygrywa**.<br>BM25 zawodzi na poz. #1 przez słowo *,,warm''* w instrukcji (*,,warm water''*). |
 | **2. Składniki:**<br>*What to cook with fish, potatoes and carrot?* | 1. Baked Fish With Potatoes (0.763)<br>2. Baked Fish On Potatoes (0.754)<br>3. Barb. Fish, Crisp Potatoes (0.753) | 1. Fish Chowder (17.3)<br>2. Fish Chowder (16.1)<br>3. Rainbow Trout w/ Potatoes (15.7) | **BM25 wygrywa**.<br>FAISS gubi marchewkę, skupiając się na ciężkich wektorach ryby i ziemniaków. |
@@ -55,7 +55,7 @@ Zbudowany system działał poprawnie w czasie rzeczywistym, sprawnie komunikują
 
 ### 3.2. Szczegółowe obserwacje i analiza błędów
 Na podstawie powyższych testów zidentyfikowano kluczowe cechy operacyjne obu systemów:
-* **Komponent semantyczny (FAISS):** Doskonale radzi sobie z mapowaniem ogólnego zamysłu użytkownika na odpowiedni profil smakowy lub geograficzny (Zapytania 1 i 3). Wykazuje jednak tendencję do "wygładzania" nietypowych szczegółów – obecność bardzo silnych powiązań wektorowych (np. ryba + ziemniaki) potrafi całkowicie przesłonić obecność mniejszych, ale równie ważnych słów kluczowych (np. marchewka).
+* **Komponent semantyczny (FAISS):** Doskonale radzi sobie z mapowaniem ogólnego zamysłu użytkownika na odpowiedni profil smakowy lub geograficzny (Zapytania 1 i 3). Wykazuje jednak tendencję do "wygładzania" nietypowych szczegółów - obecność bardzo silnych powiązań wektorowych (np. ryba + ziemniaki) potrafi całkowicie przesłonić obecność mniejszych, ale równie ważnych słów kluczowych (np. marchewka).
 * **Komponent leksykalny (BM25):** Gwarantuje stuprocentową obecność pożądanych słów kluczowych w nadrzędnych wynikach, co czyni go niezrównanym w zapytaniach recepturowych. Jest jednak całkowicie podatny na błędy kontekstowe, wynikające z obecności słów kluczowych w niespodziewanych miejscach dokumentu (np. w instrukcjach technicznych przygotowania potrawy, a nie liście składników).
 * **Wspólne ograniczenia systemów NLP:** Testy wykluczenia (negacji) oraz ograniczeń numerycznych jednoznacznie dowodzą, że surowe systemy wyszukiwania tekstowego nie posiadają wewnętrznych struktur logiczno-matematycznych. Zarówno odcięcie stop-słów w BM25, jak i uśrednianie wektorów w FAISS, uniemożliwiają poprawną interpretację zwrotów takich jak "without" czy "< 15".
 

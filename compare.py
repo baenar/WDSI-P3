@@ -1,3 +1,9 @@
+# Skrypt ewaluacyjny porównujący jakość retrieval FAISS vs BM25.
+# Dla każdego zapytania z listy QUERIES uruchamia oba retrievery i zapisuje
+# Top-5 wyników (tytuł, wynik, kroki przygotowania) do pliku JSON w folderze
+# compare_results/. Zapytania dobrano tak, by pokazać mocne i słabe strony
+# każdej metody - wyniki służą jako materiał do analizy w raporcie i prezentacji.
+
 import json
 import os
 import pickle

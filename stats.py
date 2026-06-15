@@ -1,3 +1,9 @@
+# Skrypt pomocniczy do analizy datasetu.
+# Pobiera pełny dataset CookingRecipes, filtruje przepisy z ziemniakami,
+# a następnie zlicza częstość wystąpień każdego składnika w kolumnie NER.
+# Służył do podjęcia decyzji o wyborze składnika filtrującego dataset
+# przed uruchomieniem ingest.py (nie jest potrzebny do działania chatbota).
+
 import ast
 from collections import Counter
 
