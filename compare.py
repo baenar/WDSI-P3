@@ -20,9 +20,11 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 TOP_K = 5
 
 QUERIES = [
-    "hearty warm dish for cold weather", # FAISS better
-    "traditional Eastern European side dish", # FAISS better, but still wrong
-    "what to cook with fish, potatoes and carrot?", # BM25 better
+    "hearty warm dish for cold weather",            # FAISS better (semantic understanding / vibe)
+    "traditional Eastern European side dish",       # FAISS better, but still wrong (geographical context)
+    "what to cook with fish, potatoes and carrot?", # BM25 better (exact ingredient matching)
+    "potato dish without cheese or dairy",          # Both fail (negation trap - ignores "without")
+    "quick potato dish ready in under 15 minutes"   # Both fail (numerical constraint - needs metadata filtering)
 ]
 
 

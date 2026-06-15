@@ -1,0 +1,68 @@
+{
+  "query_id": 5,
+  "query": "quick potato dish ready in under 15 minutes",
+  "faiss": [
+    {
+      "rank": 1,
+      "title": "Quick-Baked Potatoes",
+      "score": 0.7523,
+      "directions": "[\"Combine potatoes and water to cover in a medium saucepan; bring to a boil. Reduce heat, and cook 20 minutes. Drain.\", \"Place potatoes on center rack of oven. Bake at 400\\u00b0 for 15 minutes or until potatoes yield slightly to pressure. Cut a slit in the top of each potato. Press sides to loosen inside of potato. Add butter and seasonings to taste.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Quick Potatoes",
+      "score": 0.7461,
+      "directions": "[\"Slice potatoes and place in casserole dish.\", \"Pour butter over potatoes.\", \"Sprinkle with cheeses and bake for 25 minutes at 475\\u00b0. Serve hot.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Potato Bud Casserole",
+      "score": 0.728,
+      "directions": "[\"Make 8 servings of instant potatoes according to package directions.\", \"Add remaining ingredients.\", \"Place in a 1 1/2-quart casserole dish.\", \"Put several pats of butter on top; sprinkle with paprika.\", \"Bake 25 to 30 minutes at 350\\u00b0.\", \"Can be made a day ahead and refrigerated, but then will need to be heated approximately 1 hour.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Fast Grilled Potatoes",
+      "score": 0.7279,
+      "directions": "[\"Lay potatoes on microwave-safe dish. Spray each potato with Pam spray. Sprinkle each potato with garlic salt, paprika, dill weed and Parmesan cheese. Cover potatoes with plastic, leaving a place for air to escape.\", \"Cook on High for 10 to 15 minutes. Place on grill until browned on both sides of sliced potatoes, 10 minutes or so.\", \"Very good when mashed with butter and sour cream topping it off.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Quick Potato Casserole",
+      "score": 0.7183,
+      "directions": "[\"Place in 2-quart casserole with 2 layers of string beans/potatoes/onions/soup.\", \"Cover and cook at 325\\u00b0 until potatoes are done, approximately 45 to 60 minutes.\"]"
+    }
+  ],
+  "bm25": [
+    {
+      "rank": 1,
+      "title": "Gram'S Quick Casserole",
+      "score": 14.6782,
+      "directions": "[\"Boil the potatoes about 10 minutes; drain.\", \"Chunk the chicken up; peel baby onions.\", \"Add all together in casserole dish.\", \"Slice butter all around in dish.\", \"Sprinkle paprika all over the whole dish.\", \"Bake, covered, for 1 hour and 15 minutes at 325\\u00b0.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Quick Corned Beef Casserole",
+      "score": 14.0555,
+      "directions": "[\"Combine all ingredients.\", \"Put in a greased 2-quart casserole dish.\", \"Cover and bake in a 350\\u00b0 oven for 30 minutes.\", \"Uncover and bake 15 minutes longer.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Quick Scalloped Potatoes",
+      "score": 13.5145,
+      "directions": "[\"Slice potatoes into casserole dish.\", \"Melt butter in saucepan. Add flour gradually.\", \"Add salt and milk.\", \"Stir constantly until thick.\", \"Pour over potatoes.\", \"Bake at 350\\u00b0 for 20 minutes.\", \"Top with cheese and bake 10 to 15 minutes until melted.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Potato And Spinach",
+      "score": 13.3516,
+      "directions": "[\"Heat oil in a pot.\", \"Add onion, potato slices, salt, cumin and hot pepper.\", \"Saute and cover on medium heat for 15 minutes.\", \"Add spinach and cover again for 15 to 20 minutes.\", \"When potatoes are tender, the dish is ready to eat.\", \"Serves 6.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Potato Dumplings",
+      "score": 13.202,
+      "directions": "[\"Mash potatoes well in egg and 1 cup\", \"flour.\", \"Drop\", \"into broth by\\ttablespoonfuls\\t(chicken,\", \"beef\", \"and\", \"pork\", \"broth). Simmer for 10 to 15 minutes.\", \"These are very good and quick.\"]"
+    }
+  ]
+}

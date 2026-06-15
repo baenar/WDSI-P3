@@ -2,53 +2,53 @@ Top 50 ingredients:
 
 Rank   Ingredient                          Count
 ------------------------------------------------
-1      salt                            1,013,713
-2      sugar                             662,836
-3      butter                            539,979
-4      flour                             488,089
-5      eggs                              422,213
-6      onion                             391,271
-7      garlic                            388,187
-8      milk                              370,287
-9      water                             351,248
-10     vanilla                           293,882
-11     olive oil                         227,385
-12     pepper                            193,383
-13     brown sugar                       187,093
-14     egg                               176,197
-15     tomatoes                          174,311
-16     baking powder                     161,100
-17     lemon juice                       155,453
-18     cinnamon                          128,620
-19     sour cream                        122,732
-20     cream cheese                      121,521
-21     baking soda                       120,745
-22     celery                            116,653
-23     margarine                         114,908
-24     chicken                           114,504
-25     cheddar cheese                    111,261
-26     parsley                           107,771
-27     vegetable oil                     103,010
-28     onions                            102,597
-29     mayonnaise                         93,147
-30     parmesan cheese                    92,833
-31     oil                                89,945
-32     pecans                             83,320
-33     potatoes                           81,825
-34     kosher salt                        81,509
-35     carrots                            80,451
-36     nuts                               79,693
-37     soy sauce                          79,677
-38     black pepper                       77,694
-39     pineapple                          76,432
-40     honey                              73,864
-41     bacon                              72,351
-42     thyme                              72,215
-43     chicken broth                      68,993
-44     oregano                            68,516
-45     ground beef                        67,258
-46     mustard                            66,948
-47     unsalted butter                    66,539
-48     worcestershire sauce               65,377
-49     mushrooms                          64,501
-50     cornstarch                         62,162
+1      potatoes                           81,825
+2      salt                               54,142
+3      onion                              32,635
+4      butter                             22,831
+5      garlic                             17,874
+6      pepper                             17,733
+7      milk                               17,654
+8      water                              16,734
+9      carrots                            15,664
+10     flour                              14,770
+11     onions                             12,427
+12     celery                             10,765
+13     olive oil                          10,579
+14     eggs                               10,347
+15     tomatoes                            8,651
+16     parsley                             8,320
+17     cheddar cheese                      7,894
+18     bacon                               7,689
+19     sour cream                          7,045
+20     sugar                               6,864
+21     thyme                               5,696
+22     paprika                             5,033
+23     black pepper                        4,569
+24     chicken                             4,549
+25     margarine                           4,161
+26     chicken broth                       4,130
+27     vegetable oil                       4,068
+28     ground beef                         3,913
+29     oil                                 3,912
+30     egg                                 3,834
+31     mayonnaise                          3,279
+32     parmesan cheese                     3,274
+33     mustard                             2,814
+34     corn                                2,786
+35     bay leaf                            2,766
+36     worcestershire sauce                2,757
+37     carrot                              2,717
+38     green pepper                        2,699
+39     green beans                         2,695
+40     stalks celery                       2,692
+41     kosher salt                         2,624
+42     green onions                        2,548
+43     cream of mushroom soup              2,499
+44     oregano                             2,449
+45     lemon juice                         2,441
+46     cabbage                             2,289
+47     mushrooms                           2,267
+48     bay leaves                          2,258
+49     basil                               2,197
+50     clove garlic                        2,182

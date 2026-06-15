@@ -1,0 +1,68 @@
+{
+  "query_id": 4,
+  "query": "potato dish without cheese or dairy",
+  "faiss": [
+    {
+      "rank": 1,
+      "title": "Cheese Potatoes (Low-Fat)",
+      "score": 0.708,
+      "directions": "[\"Spray a baking dish with Pam.\", \"Mix the onion and potatoes together.\", \"Spread potato mixture in bottom of baking dish.\", \"Mix soup and sour cream together and spread over potato mixture. Sprinkle shredded cheese on top.\", \"Bake at 325\\u00b0 for 1 hour.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "No-Fat Cheese Potatoes",
+      "score": 0.7,
+      "directions": "[\"Boil potatoes; cool, peel and slice.\", \"Put layer of potatoes, onions and cheese until they are all used up.\", \"Season with pepper and parsley.\", \"Pour milk over the top.\", \"Bake at 350\\u00b0 until hot. This can also be heated in a microwave.\", \"Mix well before serving.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Potato Cheese Patties",
+      "score": 0.6962,
+      "directions": "[\"Leftover mashed potatoes or instant mashed potatoes may be used.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Old Fashioned Cheese Potatoes",
+      "score": 0.6954,
+      "directions": "[\"In saucepan melt butter.\", \"Add flour, salt and pepper.\", \"Cook and stir until a thick paste forms.\", \"Gradually add milk.\", \"Cook and stir until mixture begins to thicken.\", \"Add cheese.\", \"Cook and stir until melted.\", \"Place potatoes in a greased 13 x 9-inch dish.\", \"Pour sauce over and bake at 350\\u00b0 for 1 hour.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Old Fashioned Cheese Potatoes",
+      "score": 0.6941,
+      "directions": "[\"In saucepan, melt butter.\", \"Add flour, salt and pepper.\", \"Cook and stir until a thick paste forms.\", \"Gradually add milk.\", \"Cook and stir until mixture begins to thicken.\", \"Add cheese.\", \"Cook and stir until cheese is melted.\", \"Place potatoes in 13 x 9 x 2-inch baking dish.\", \"Pour sauce over potatoes.\", \"Bake uncovered at 350\\u00b0 about 1 hour.\", \"Makes 8 to 10 servings.\", \"Good and easy!\"]"
+    }
+  ],
+  "bm25": [
+    {
+      "rank": 1,
+      "title": "Cheesy Mashed Potato Casserole",
+      "score": 10.8807,
+      "directions": "[\"Cook potatoes until done, then mash.\", \"Add cream cheese, sour cream, butter, seasonings and onion.\", \"Mix well.\", \"Pour into buttered casserole dish.\", \"Grate cheese on top.\", \"Bake at 350\\u00b0 for 1 hour.\", \"Serves 8.\"]"
+    },
+    {
+      "rank": 2,
+      "title": "Party Potatoes",
+      "score": 10.6368,
+      "directions": "[\"Cook potatoes until tender; drain.\", \"Beat softened cream cheese and sour cream at medium speed until well blended.\", \"Add hot potatoes gradually, beating constantly until light and fluffy. Season to taste with salt.\", \"Spoon mixture into 2-quart greased casserole dish.\"]"
+    },
+    {
+      "rank": 3,
+      "title": "Potato Dish Casserole",
+      "score": 10.5382,
+      "directions": "[\"In a large bowl, mix the sour cream, soup, pepper, dried onion, cheese, salt and bouillon.\", \"Add potatoes.\", \"Melt butter; mix with corn flakes.\", \"Put potato mixture in a 3-quart casserole dish. Cover with the corn flakes mixture.\", \"Bake at 350\\u00b0 for 1 hour.\"]"
+    },
+    {
+      "rank": 4,
+      "title": "Potato Casserole",
+      "score": 10.4717,
+      "directions": "[\"Heat butter with soup.\", \"Blend sour cream, onion and cheese into soup.\", \"Stir until smooth.\", \"Stir in potatoes.\", \"Place in buttered casserole dish.\", \"Sprinkle corn flake crumbs on top.\", \"Bake at 350\\u00b0 for 1 1/2 hours.\", \"Yields 10 to 20 servings.\"]"
+    },
+    {
+      "rank": 5,
+      "title": "Golden Potato Casserole",
+      "score": 10.4703,
+      "directions": "[\"Cook potatoes in skins.\", \"Cool.\", \"Peel and grate into a large bowl.\", \"Mix everything, except 2 tablespoons of butter which goes on top after you pat mixture into a buttered baking dish.\", \"Bake for 30 to 45 minutes in a 350\\u00b0 oven.\"]"
+    }
+  ]
+}
